@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="294" viewBox="0 0 1040 294" role="img" aria-labelledby="title description">
+  <title id="title">Ziting Niu — AI Systems &amp; Backend Engineering</title>
+  <desc id="description">A navy portfolio banner with a mint and blue network motif.</desc>
+  <defs>
+    <linearGradient id="ink" x2="1" y2="1">
+      <stop stop-color="#0b1423"/>
+      <stop offset=".64" stop-color="#10233c"/>
+      <stop offset="1" stop-color="#15334b"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".78" cy=".50" r=".43">
+      <stop stop-color="#357c9a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#357c9a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#70aaff" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#8af4da"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#8bc6dd" stroke-opacity=".16"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1040" height="294" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <path fill="url(#ink)" d="M0 0h1040v294H0z"/>
+    <path fill="url(#halo)" d="M0 0h1040v294H0z"/>
+    <path fill="url(#grid)" opacity=".72" d="M620 0h420v294H620z"/>
+
+    <g fill="none" stroke="#70b3d2" stroke-opacity=".33">
+      <circle cx="792" cy="137" r="48"/>
+      <circle cx="792" cy="137" r="80" stroke-dasharray="3 7"/>
+      <path d="M634 188h50l42-51h66l58-61h113M792 137l57 55h67l38-32h86M792 137l-46-54h-41l-29-34h-50"/>
+      <path d="M792 137v85m0-85h131m-131 0V23" stroke-dasharray="2 8"/>
+    </g>
+    <g fill="none" stroke="url(#trace)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M646 188h38l42-51h66l58-61h113"/>
+      <path d="M792 137l57 55h67l38-32h49" opacity=".75"/>
+      <path d="M792 137l-46-54h-41l-29-34h-27" opacity=".65"/>
+    </g>
+    <g fill="#0e243a" stroke="#8ae1e2" stroke-width="1.5">
+      <circle cx="646" cy="188" r="4.5"/>
+      <circle cx="649" cy="49" r="4.5"/>
+      <circle cx="963" cy="76" r="4.5"/>
+      <circle cx="1003" cy="160" r="4.5"/>
+      <circle cx="792" cy="137" r="15"/>
+    </g>
+    <circle cx="792" cy="137" r="5.5" fill="#a8ffe6"/>
+
+    <path d="M53 47h31" stroke="#8af4da" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="97" y="52" fill="#a8ffe6" font-family="monospace" font-size="16" font-weight="600" letter-spacing="2.5">ENGINEERING PORTFOLIO</text>
+    <text x="51" y="137" fill="#f4f9ff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-3">Ziting Niu</text>
+    <text x="55" y="185" fill="#cbd9ed" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="31">AI Systems &amp; Backend Engineering</text>
+
+    <path d="M53 226h934" stroke="#8bc6dd" stroke-opacity=".34"/>
+    <g fill="#c0d1e7" font-family="monospace" font-size="16" letter-spacing="1.1">
+      <text x="54" y="263">AGENTS / RETRIEVAL / MODEL EVALUATION</text>
+      <text x="986" y="263" text-anchor="end">@EighthhDayy</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1039" height="293" rx="15.5" fill="none" stroke="#79a9c4" stroke-opacity=".46"/>
+</svg>
