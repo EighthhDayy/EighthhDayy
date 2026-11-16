@@ -8,7 +8,7 @@ I'm particularly interested in making non-deterministic models reliable within d
 
 M.S. in Computer Science · San Francisco Bay University
 
-[Selected projects](#selected-projects) · [Open-source work](#open-source-work) · [Technical focus](#technical-focus)
+[Selected projects](#selected-projects) · [Engineering notes](#engineering-notes) · [Open-source work](#open-source-work) · [Technical focus](#technical-focus)
 
 ---
 
@@ -43,6 +43,14 @@ An applied machine learning system combining budget prediction, customer segment
 [Source code](https://github.com/EighthhDayy/Automotive-Budget-Prediction-and-Pricing-Model)
 
 ---
+
+## Engineering notes
+
+### Agent Notes
+
+A collection of my technical reflections, architectural insights, and practical lessons from building AI agents. I write about agent engineering, system reliability, design decisions, and what I learn along the way.
+
+[Read my engineering notes](https://github.com/EighthhDayy/agent-notes)
 
 ## Open-source work
 
