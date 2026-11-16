@@ -1,6 +1,10 @@
 <img src="./assets/profile-banner.svg" width="1040" alt="Ziting Niu — AI Systems and Backend Engineering">
 
-I build **LLM applications and Python backends**, from agents that call authenticated tools to retrieval pipelines that cite their sources. I hold an **M.S. in Computer Science** from San Francisco Bay University.
+I build **AI agents and the systems that make them reliable**. My work focuses on **Agent Harness Engineering, Context Engineering, and Agent Evaluation**, from stateful execution, tool orchestration, and failure recovery to context management and benchmark-driven iteration.
+
+I also work on LLM fine-tuning, inference optimization, and AI-native application development. I am particularly interested in how to make non-deterministic models operate reliably, safely, and efficiently within deterministic engineering systems.
+
+I hold an **M.S. in Computer Science** from San Francisco Bay University.
 
 [Selected work](#selected-work) · [Open-source work](#open-source-work) · [Technical stack](#technical-stack)
 
