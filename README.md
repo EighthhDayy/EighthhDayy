@@ -1,39 +1,63 @@
-<img src="./assets/profile-banner.svg" width="1040" alt="Ziting Niu — AI Systems and Backend Engineering">
+# Ziting Niu
 
-I build **AI agents and the systems that make them reliable**. My work focuses on **Agent Harness Engineering, Context Engineering, and Agent Evaluation**, from stateful execution, tool orchestration, and failure recovery to context management and benchmark-driven iteration.
+**AI Agent Engineering · Agent Harness & Context Engineering · LLM Systems**
 
-I also work on LLM fine-tuning, inference optimization, and AI-native application development. I am particularly interested in how to make non-deterministic models operate reliably, safely, and efficiently within deterministic engineering systems.
+I build AI agents and the engineering systems that make them reliable, safe, and efficient. My work spans agent runtimes, context management, tool orchestration, failure recovery, and evaluation-driven iteration.
 
-I hold an **M.S. in Computer Science** from San Francisco Bay University.
+I'm particularly interested in making non-deterministic models reliable within deterministic engineering systems, from the first working prototype to a robust application.
 
-[Selected work](#selected-work) · [Open-source work](#open-source-work) · [Technical stack](#technical-stack)
+M.S. in Computer Science · San Francisco Bay University
 
-## Selected work
+[Selected projects](#selected-projects) · [Open-source work](#open-source-work) · [Technical focus](#technical-focus)
 
-### 01 / AI Task Manager
+---
 
-**An agent backend for task automation and document Q&A.** I built the FastAPI service from scratch, with authenticated task operations, a stdio MCP server, and a RAG pipeline backed by PostgreSQL/pgvector. Redis/RQ workers handle PDF ingestion and OCR outside the request cycle.
+## Selected projects
 
-[Source code](https://github.com/EighthhDayy/ai-task-manager) · [System architecture](https://github.com/EighthhDayy/ai-task-manager#system-architecture) · [MCP demo](https://github.com/EighthhDayy/ai-task-manager/blob/main/docs/mcp.md)
+### Next Task · AI Task Manager
 
-### 02 / Transformer-Based Question Answering
+**An AI-native task management platform built from the ground up.**
 
-**A study of extractive and generative QA on SQuAD 2.0.** I compared DistilBERT with Qwen3-0.6B and fine-tuned Qwen3 using 4-bit QLoRA. On an 80-example pilot, token F1 rose from **29.20% to 60.44%**, alongside more false abstentions on answerable questions.
+A full-stack application combining natural-language task management, authenticated tool execution, an MCP server, document RAG, and a fine-tuned Qwen3 model. The project brings together agent runtime design, application engineering, and evaluation-driven development.
+
+`Python` `FastAPI` `MCP` `PostgreSQL` `pgvector` `Redis` `React` `TypeScript`
+
+[Live demo](https://eighthhdayy.github.io/ai-task-manager/) · [Source code](https://github.com/EighthhDayy/ai-task-manager) · [Architecture](https://github.com/EighthhDayy/ai-task-manager#system-architecture)
+
+### Transformer-Based Question Answering
+
+**Model adaptation, evaluation, and inference.**
+
+An extractive and generative QA system using DistilBERT and Qwen3-0.6B, with supervised fine-tuning via 4-bit QLoRA. On an 80-example pilot evaluation, token F1 improved from **29.20% to 60.44%**, with a trade-off in false abstentions on answerable questions.
+
+`PyTorch` `Transformers` `TRL` `PEFT` `QLoRA` `SQuAD 2.0`
 
 [Source code](https://github.com/EighthhDayy/Transformer-Based-Question-Answering-System) · [Evaluation results](https://github.com/EighthhDayy/Transformer-Based-Question-Answering-System#qwen3-qlora--observed-results)
 
-### 03 / Automotive Sales Decision Support
+### Automotive Sales Decision Support
 
-**An applied ML project for vehicle sales.** I combined XGBoost budget prediction, K-means customer segmentation, KNN vehicle recommendations, and a pricing simulation.
+An applied machine learning system combining budget prediction, customer segmentation, vehicle recommendations, and pricing simulation.
+
+`XGBoost` `K-means` `KNN` `Scikit-learn`
 
 [Source code](https://github.com/EighthhDayy/Automotive-Budget-Prediction-and-Pricing-Model)
 
+---
+
 ## Open-source work
 
-**OpenAI Codex (Rust)** · In my fork, I patched remote compaction to surface the actual fallback error and added regression coverage. [View the patch](https://github.com/EighthhDayy/codex/pull/1)
+### OpenAI Codex · Rust
 
-## Technical stack
+Investigated an error-propagation defect in remote context compaction, implemented a patch to surface the actual fallback-model error, and added regression coverage.
 
-- **AI systems** · LLM tool calling, MCP, RAG, vector retrieval
-- **Model adaptation and evaluation** · PyTorch, Transformers, TRL, QLoRA
-- **Backend engineering** · Python, FastAPI, PostgreSQL/pgvector, Redis/RQ, Docker, pytest
+[View the patch in my fork](https://github.com/EighthhDayy/codex/pull/1)
+
+## Technical focus
+
+| Area | Focus |
+| :--- | :--- |
+| Agent Engineering | Agent runtimes, tool calling, MCP, state management, human-in-the-loop |
+| Harness & Context Engineering | Checkpoint recovery, idempotency, circuit breakers, context compression, memory management |
+| Agent Evaluation | Custom benchmarks, deterministic evaluation, end-to-end LLM evaluation |
+| LLM Engineering | SFT, QLoRA, model quantization, inference services, RAG |
+| Software Engineering | Python, Rust, FastAPI, PostgreSQL, Redis, React, TypeScript, Docker, pytest |
