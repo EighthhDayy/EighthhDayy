@@ -1,8 +1,8 @@
 # Ziting Niu
 
-**AI Agent Engineering · Agent Harness & Context Engineering · LLM Systems**
+**Agent Harness & Context Engineering**
 
-Hello! I'm Ziting Niu. I build AI agents and the engineering systems that make them reliable, and efficient. My work spans agent runtimes, context management, tool orchestration, failure recovery, and evaluation-driven iteration.
+Hello! I'm Ziting Niu. Agent = LLM + Context + Tools. I build guardrails, validation, and correction mechanisms around context and tools to ensure agents can "get things done reliably."
 
 I'm particularly interested in making non-deterministic models reliable within deterministic engineering systems, from the first working prototype to a robust application.
 
