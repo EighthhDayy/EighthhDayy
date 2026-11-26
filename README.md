@@ -12,7 +12,7 @@
 
 ⚙️ [Agent Experiments](https://github.com/EighthhDayy/agent-experiments) — 记录了我在开发 Agent 过程中开展的实验，也在持续更新中……
 
-
+<br>
 👋 Hello! I'm Eighthdayy
 
 **Agent = LLM + Context + Tools** 🤖
@@ -23,4 +23,4 @@ As I develop agents, I document my technical insights and conduct experiments to
 
 📝 [Agent Notes](https://github.com/EighthhDayy/agent-notes) — A collection of my technical insights and reflections on agent development, with more to come...
 
-⚙️ [Agent Experiments](https://github.com/EighthhDayy/agent-experiments) — A collection of experiments I've conducted while developing agents, with more to come...
+⚙️ [Agent Experiments](https://github.com/EighthhDayy/agent-experiments) — A collection of experiments I've conducted while developing agents, with more to here, too...
