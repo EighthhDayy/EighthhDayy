@@ -1,6 +1,6 @@
 # Agent Harness
 
-👋 你好！我是 Eighthdayy。
+👋 你好！我是 Eighthdayy
 
 **Agent = LLM + 上下文 + 工具** 🤖
 
